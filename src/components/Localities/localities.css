@@ -1,0 +1,45 @@
+.localities-wrapper{
+    max-width: 1100px;
+    margin: 80px auto 50px auto;
+}
+.localities-wrapper h2{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-size: 34px;
+    font-weight: 500;
+    color: #363636;
+    text-align: center;
+}
+.localities-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.localities-row .localities-col{
+    flex-basis: 25%;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232);
+    padding: 1.2rem 2.4rem;
+    box-shadow: 0px 0.5px 0.5px rgb(212, 206, 206);
+    margin-bottom: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+.localities-row .localities-col:hover{
+    box-shadow: 0px 1px 1px rgb(212, 206, 206);
+}
+.localities-row .localities-col i{
+    font-size: 16px;
+    margin-top: 5px;
+    color: #1c1c1c;
+    font-weight: 400;
+}
+.localities-row .localities-col h4{
+    font-size: 19px;
+    color: #1c1c1c;
+    font-weight: 400;
+    
+}

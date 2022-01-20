@@ -1,0 +1,86 @@
+.collections-wrapper {
+  max-width: 1100px;
+  margin: 10px auto;
+}
+.collection-card-wrapper {
+  display: flex;
+  max-width: 1100px;
+}
+.collection-card {
+  position: relative;
+  width: 25%;
+  height: 320px;
+  border-radius: 6px;
+  margin: 0px 4px;
+}
+.collection-card:hover{
+    cursor: pointer;
+}
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.05) 50%,
+    rgba(0, 0, 0, 0.05) 85%
+  );
+  border-radius: 6px;
+}
+.collection-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.collection-card-text {
+  position: relative;
+  top: 260px;
+  margin-left: 15px;
+}
+.collection-card-text h4 {
+  font-size: 18px;
+  color: white;
+  font-weight: 400;
+}
+.collection-card-text p {
+  font-size: 14px;
+  color: white;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.collection-card-text i {
+  margin-left: 5px;
+  font-size: 18px;
+  color: white;
+}
+.collections-content {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.collections-content .description{
+    display: flex;
+    justify-content: space-between;
+}
+.collections-content .description .desc-link{
+    font-size: 18px;
+    text-decoration: none;
+    color:rgb(243, 109, 109) ;
+}
+.collections-content h3 {
+  font-size: 36px;
+  color: #1c1c1c;
+  font-weight: 550;
+}
+.collections-content p {
+  font-size: 18px;
+  color: #363636;
+  margin-top: 10px;
+}
+.desc-link{
+  font-size: 18px;
+  margin-top: 10px;
+}

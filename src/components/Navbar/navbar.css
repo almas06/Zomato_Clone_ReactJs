@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+    display: flex;
+    width: 1300px;
+    height: 80px;
+    justify-content: space-between;
+}
+.navbar .get-the-app{
+    color: white;
+    z-index: 10;
+    margin: 25px 0px 0 140px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 14px;
+}
+.navbar .get-the-app i{
+    margin-right: 5px;
+}
+.navbar .nav-links{
+    z-index: 10;
+}
+.navbar .nav-links ul{
+    display: flex;
+    margin: 30px 80px;
+    
+}
+.navbar .nav-links ul li{
+    list-style: none;
+    padding: 0 20px;
+}
+.navbar .nav-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+

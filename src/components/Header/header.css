@@ -1,0 +1,78 @@
+.header{
+    position: absolute;
+    width: 100%;
+    height: 77vh;
+    margin-top: -100px;
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    background-position: center;
+    background-size: cover;
+}
+.header-content{
+    margin-top: 120px;
+    text-align: center;
+    justify-content: center;
+}
+.header-content .logo img{
+    height: 60px;
+    width: 280px;
+}
+.main-text{
+    margin-top: 30px;
+    font-size: 35px;
+    color: white;
+}
+.location-searchbar{
+    margin: 30px auto;
+    width: 780px;
+    height: 52px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.location{
+    display: flex;
+    flex:1;
+    align-items: center;
+    margin-left: 10px;
+}
+.location-icon{
+    font-size: 25px;
+    color: rgb(243, 109, 109);
+    margin-right: 10px;
+}
+.location-text input{
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
+.searchbar{
+    display: flex;
+    flex:2;
+    align-items: center;
+}
+.search-icon{
+    font-size: 23px;
+    color: rgb(201, 201, 201);
+    margin-right: 10px;
+}
+.searchbar-input input{
+    width: 300px;
+    outline: none;
+    border: none;
+    font-size: 15px; 
+}
+.seperator{
+    align-items: center;
+    height: 20px;
+    border: 0.5px solid rgb(201, 201, 201);
+    margin: auto 10px;
+}
+.carret{
+    color: rgb(80, 78, 78);
+    font-size:18px ;
+}
+
+
